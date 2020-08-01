@@ -13,7 +13,9 @@ function App() {
     <div style={{background: "#414141" }}>
       <Menu />
       
-      <BannerMain />
+      <BannerMain  videoTitle={dadosIniciais.categorias[0].videos[0].titulo}  
+      videoDescription={dadosIniciais.categorias[0].videos[0].url}  
+      url="descritivo"/>
     </div>
   );
 }
